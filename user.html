@@ -1,0 +1,12 @@
+<html>
+    <head><b>Welcome</b> <?php session_start();echo $_SESSION['username'];?></head>
+    <body>
+        <br>
+        <form action="display.php" method="POST">
+            <input type="submit" value="Click here to display all your docs">
+        </form>
+        <form action="user_details.html" method="POST">
+            <input type="submit" value="Click here to upload your details">
+        </form>
+    </body>
+</html>
